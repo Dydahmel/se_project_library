@@ -45,7 +45,9 @@
   font-weight: bold;
 }
 
-/* Add the hover state styles for .nav__link here */
+.nav__link:hover{
+  color: #1f69c9;
+}
 
 .header__title {
   font-size: 66px;
@@ -88,6 +90,10 @@
   text-decoration: none;
 }
 
+.header__link:hover{
+  color: #1f69c9;
+}
+
 /* Add the hover state styles for .header__link here */
 
 .header__address {
@@ -116,6 +122,20 @@
   margin: 24px 0 0;
 }
 
+.staff__content{
+  margin:auto;
+  /*margin-bottom: 0;*/
+  max-width: 950px;
+  padding-top: 68px;
+  /*padding-left: 0;*/
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}
+
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .card {
@@ -123,6 +143,8 @@
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -130,8 +152,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  width: 360px;
-  height: 420px;
+  /*width: 360px;
+  height: 420px;*/
 }
 
 .card__title {
@@ -227,6 +249,10 @@
   text-decoration: none;
 }
 
+.events__more:hover{
+  color: #1f69c9;
+}
+
 /* Add the hover state styles for .events__more here */
 
 .events__cover {
@@ -316,10 +342,20 @@
   padding: 0;
   margin: 100px 0 0;
   /* Add styles */
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  /*border:#000000 solid;*/
+  gap: 40px;
+
+
 }
 
 .step {
-  /* Add styles */
+  flex-basis: 220px;
+  height: auto;
+  /*border:#000000 solid;
+  Add styles */
 }
 
 .step__title {
