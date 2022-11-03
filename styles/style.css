@@ -429,18 +429,30 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  color:#fff;
+  min-height: 224px;
+  padding: 60px 102px 60px 80px;
+
 }
 
 .footer__columns {
+  display: flex;
+  justify-content: space-between;
+  border: #fff solid;
 }
 
 .footer__column_content_hours {
+
 }
 
 .footer__column_content_social {
 }
 
 .footer__logo {
+  width: 116px;
+  height: 21px;
+  
 }
 
 .footer__list {
@@ -451,9 +463,11 @@
 }
 
 .footer__list-item {
+
 }
 
 .footer__column-heading {
+  padding-bottom: 20px;
 }
 
 .footer__column-link {
