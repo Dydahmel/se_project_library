@@ -37,6 +37,7 @@
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -127,7 +128,7 @@
   /*margin-bottom: 0;*/
   max-width: 950px;
   padding-top: 68px;
-  /*padding-left: 0;*/
+  padding-left: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -431,14 +432,14 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   color:#fff;
-  min-height: 224px;
   padding: 60px 102px 60px 80px;
 
 }
 
 .footer__columns {
   display: flex;
-
+  min-height: 224px;
+  
 
 }
 
@@ -498,10 +499,12 @@
 }
 
 .footer__column-link:hover{
-  color: #1f69c9;
+  color: #c1c1c1;
 }
 
 .footer__copyright {
   font-size: 16px;
-  
+  margin: 0;
+  padding-top: 0;
+
 }
